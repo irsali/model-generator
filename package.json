@@ -1,12 +1,12 @@
 {
-        "name": "generator-new",
+        "name": "model-generator",
         "version": "1.0.1",
         "description": "file generator test",
         "licence": "MIT Licence",
         "respository": "null",
     
     "bin":{
-      "mg-new": "./index.js"  
+      "mg": "./index.js"  
     },
     "dependencies": {
         "fs": "0.0.1-security",
