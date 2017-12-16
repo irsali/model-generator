@@ -1,0 +1,16 @@
+{
+    "@name": "@model",
+    "models": [
+        {
+            "@name": "Server"
+        },
+        {
+            "@name": "Device",
+            "@type": "short"
+        },
+        "AdditionalDevice"
+    ],
+    "keyvalues": {
+        "@type": "long"
+    }
+}

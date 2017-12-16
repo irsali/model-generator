@@ -1,0 +1,15 @@
+{
+        "name": "model-generator",
+        "version": "1.0.1",
+        "description": "file generator test",
+        "licence": "MIT Licence",
+        "respository": "null",
+    
+    "bin":{
+      "mg": "./index.js"  
+    },
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "inquirer": "^4.0.1"
+    }
+}
