@@ -1,12 +1,14 @@
 {
-        "name": "model-generator",
-        "version": "1.0.1",
-        "description": "file generator test",
-        "licence": "MIT Licence",
-        "respository": "null",
-    
-    "bin":{
-      "mg": "./index.js"  
+    "name": "model-generator",
+    "version": "1.0.3",
+    "description": "file generator test",
+    "licence": "MIT Licence",
+    "repository": {
+        "type": "",
+        "url": "https://github.com/irsali/model-generator.git"
+    },
+    "bin": {
+        "mg": "./index.js"
     },
     "dependencies": {
         "fs": "0.0.1-security",
