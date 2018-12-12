@@ -5,13 +5,12 @@
     "outDir": "dist",
     "sourceMap": true
   },
-  "files": [
-  ],
   "include": [
     "src/**/*.ts",
-    "src/**/*.cs",
+    "src/**/*.cs"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "templates"
   ]
 }

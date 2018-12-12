@@ -2,22 +2,25 @@
     "name": "irs-model-generator",
     "version": "1.0.3",
     "description": "file generator test",
-    "license": "MIT Licence",
+    "license": "MIT",
     "repository": {
         "type": "",
         "url": "https://github.com/irsali/model-generator.git"
     },
     "scripts": {
-        "start": "node dist/index.js"
+        "build": "tsc",
+        "prepare": "npm run build",
+        "npm": "node dist/index.js"
     },
     "bin": {
-        "mg": "./dist/index.js"
+        "img": "./dist/index.js"
     },
     "dependencies": {
         "fs": "0.0.1-security",
         "inquirer": "^4.0.1"
     },
     "devDependencies": {
+        "@types/inquirer": "0.0.43",
         "@types/node": "^8.5.1"
     }
 }

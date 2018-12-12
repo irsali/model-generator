@@ -1,9 +1,9 @@
-#!/usr/bin/env node
+// #!/usr/bin/env node
 // above line is quite important. It tells the following script should be interpreted by node, otherwise it will be interpreted as shell script
 
-import inquirer = require('inquirer');
 import { replaceAll } from "./utility";
-const fs = require('fs');
+import inquirer = require('inquirer');
+import fs = require('fs');
 
 const CHOICES = fs.readdirSync(`${__dirname}` +`/../templates`);
 
