@@ -1,0 +1,12 @@
+{
+    "@name": "@model",
+    "models": [
+        {
+            "@name": "desktop-windows",
+            "@TId": "int"
+        }
+    ],
+    "keyvalues": {
+        "@type": "long"
+    }
+}

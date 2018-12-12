@@ -1,0 +1,10 @@
+{
+    "@name": "@model",
+    "models": [
+        "HostHardwareInfo",
+        "ClusterConfiguration"
+    ],
+    "keyvalues": {
+        "@type": "long"
+    }
+}

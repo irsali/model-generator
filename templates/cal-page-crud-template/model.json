@@ -1,0 +1,15 @@
+{
+    "@name": "@model",
+    "models": [
+        {
+            "@name": "small-business-server-cals",
+            "@className": "SmallBusinessServerCALs",
+            "@viewModel": "ClientAccessLicenceViewModel",
+            "@uiName": "Small Business Server CAL",
+            "@enum": "SmallBusinessServer_CAL"
+        }
+    ],
+    "keyvalues": {
+        "@type": "long"
+    }
+}

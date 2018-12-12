@@ -1,0 +1,14 @@
+{
+    "@name": "@model",
+    "models": [
+        {
+         "@name":   "desktop-windows",
+         "@className": "DesktopWindows",
+         "@viewModel": "ClientAccessLicenceViewModel",
+         "@uiName": "Desktop Windows"
+        }
+    ],
+    "keyvalues": {
+        "@type": "long"
+    }
+}
