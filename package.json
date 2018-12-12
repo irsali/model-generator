@@ -1,5 +1,5 @@
 {
-    "name": "irs-model-generator",
+    "name": "i-model-generator",
     "version": "1.0.3",
     "description": "file generator test",
     "license": "MIT",
@@ -9,7 +9,6 @@
     },
     "scripts": {
         "build": "tsc",
-        "prepare": "npm run build",
         "npm": "node dist/index.js"
     },
     "bin": {
