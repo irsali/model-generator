@@ -1,11 +1,11 @@
 // #!/usr/bin/env node
 // above line is quite important. It tells the following script should be interpreted by node, otherwise it will be interpreted as shell script
 
-import { replaceAll } from "./utility";
-import inquirer = require('inquirer');
-import fs = require('fs');
+import { replaceAll } from './utility';
+import * as inquirer from 'inquirer';
+import * as fs from 'fs';
 
-const CHOICES = fs.readdirSync(`${__dirname}` +`/../templates`);
+const CHOICES = fs.readdirSync(`${__dirname}` + `/../templates`);
 
 const QUESTIONS = [
   {
@@ -32,7 +32,7 @@ inquirer.prompt(QUESTIONS)
   .then(answers => {
     const projectChoice = answers['template-choice'];
     const rootFolderName = answers['folder-name'];
-    const templatePath = `${__dirname}`+`/../templates/${projectChoice}/template`;
+    const templatePath = `${__dirname}` + `/../templates/${projectChoice}/template`;
     const modelPath = `${__dirname}` + `/../templates/${projectChoice}/model.json`;
 
     // make folder if not exist

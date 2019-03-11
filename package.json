@@ -1,5 +1,5 @@
 {
-    "name": "i-model-generator",
+    "name": "model-generator",
     "version": "1.0.3",
     "description": "file generator test",
     "license": "MIT",
@@ -15,11 +15,12 @@
         "img": "./dist/index.js"
     },
     "dependencies": {
-        "fs": "0.0.1-security",
-        "inquirer": "^4.0.1"
+        "inquirer": "^6.2.2",
+        "fs": "^0.0.1-security"
     },
     "devDependencies": {
         "@types/inquirer": "0.0.43",
-        "@types/node": "^8.5.1"
+        "@types/node": "^8.5.1",
+        "typescript": "^3.3.3333"
     }
 }
