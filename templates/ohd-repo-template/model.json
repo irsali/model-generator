@@ -1,0 +1,64 @@
+{
+    "@name": "@model",
+    "models": [
+        {
+            "@name": "AdvertisementPage",
+            "@tId": "int"
+        },
+        {
+            "@name": "Advertising",
+            "@tId": "int"
+        },
+        {
+            "@name": "AirportCode",
+            "@tId": "string"
+        },
+        {
+            "@name": "Brand",
+            "@tId": "string"
+        },
+        {
+            "@name": "Chain",
+            "@tId": "string"
+        },
+        {
+            "@name": "City",
+            "@tId": "int"
+        },
+        {
+            "@name": "Country",
+            "@tId": "string"
+        },
+        {
+            "@name": "DownloadDomains",
+            "@tId": "string"
+        },
+        {
+            "@name": "HotelProperty",
+            "@tId": "int"
+        },
+        {
+            "@name": "IconConfiguration",
+            "@tId": "string"
+        },
+        {
+            "@name": "LoginAudits",
+            "@tId": "int"
+        },
+        {
+            "@name": "Page",
+            "@tId": "int"
+        },
+        {
+            "@name": "SpecialPromotion",
+            "@tId": "int"
+        },
+        {
+            "@name": "StateProvince",
+            "@tId": "short"
+        }
+    ],
+    "keyvalues": {
+        "@type": "long"
+    }
+}

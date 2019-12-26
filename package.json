@@ -9,18 +9,19 @@
     },
     "scripts": {
         "build": "tsc",
-        "npm": "node dist/index.js"
+        "npm": "node dist/index.js",
+        "start": "tsc && node dist/index.js"
     },
     "bin": {
         "img": "./dist/index.js"
     },
     "dependencies": {
-        "inquirer": "^6.2.2",
+        "inquirer": "^6.5.0",
         "fs": "^0.0.1-security"
     },
     "devDependencies": {
-        "@types/inquirer": "0.0.43",
-        "@types/node": "^8.5.1",
-        "typescript": "^3.3.3333"
+        "@types/inquirer": "^6.5.0",
+        "@types/node": "^10.16.0",
+        "typescript": "^3.7.4"
     }
 }
