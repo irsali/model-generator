@@ -1,7 +1,16 @@
 # Model Generator or File Generator
 
 ### Purpose
-This project is intended to generate files that are repetitive. Provide one template with replaceable variables and variations that should be genereated. Run the project and Voilla!!! Your files would be generated from a template. Ofcourse, this project will ask to choose the templates. 
+This project is intended to generate files that are repetitive. Provide one template with replaceable variables and variations that should be genereated. Run the project and Voilla!!! Your files would be generated from a template. Ofcourse, this project will ask to choose from existing templates. 
+
+``` cmd
+? What template would you like to generate? (Use arrow keys)
+> cal-page-crud-template
+  odata-controller-template
+  ohd-repo-template
+  repository-template
+  single-page-crud-template
+  ```
 
 # It could generate a project template or any kind of files with repition.
 ### Explore some of the templates to get an idea, how to create template and configure generation
